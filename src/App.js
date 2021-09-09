@@ -13,24 +13,26 @@ function App() {
   return (
     <BrowserRouter>
       <div>
-        <Link to="/">홈</Link>
+        <Link to="/">홈 </Link>
+
+        <Link to="/gugudan">구구단 </Link>
+
+        <Link to="/lotto">로또 </Link>
+
+        <Link to="/minesearch">지뢰찾기 </Link>
+
+        <Link to="/numberbaseball">숫자야구 </Link>
+
+        <Link to="/responsecheck">반응속도체크 </Link>
+
+        <Link to="/rockscissorspaper">가위바위보 </Link>
+
+        <Link to="/tictactoe">틱택토 </Link>
+
+        <Link to="/wordrelay">끝말잇기 </Link>
         <br />
-        <Link to="/gugudan">구구단</Link>
         <br />
-        <Link to="/lotto">로또</Link>
-        <br />
-        <Link to="/minesearch">지뢰찾기</Link>
-        <br />
-        <Link to="/numberbaseball">숫자야구</Link>
-        <br />
-        <Link to="/responsecheck">반응속도체크</Link>
-        <br />
-        <Link to="/rockscissorspaper">가위바위보</Link>
-        <br />
-        <Link to="/tictactoe">틱택토</Link>
-        <br />
-        <Link to="/wordrelay">끝말잇기</Link>
-        <br />
+
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/gugudan" component={GuGuDan} />

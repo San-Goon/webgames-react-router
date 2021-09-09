@@ -47,7 +47,7 @@ const RSP = () => {
     }
   };
 
-  const onClickBtn = () => {
+  const onClickBtn = (choice) => {
     clearInterval(interval.current);
     const myScore = scores[choice];
     const cpuScore = scores[computerChoice(imgCoord)];
